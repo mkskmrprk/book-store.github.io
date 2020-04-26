@@ -62,9 +62,9 @@
 
         <footer class="main-footer">
             <div class="float-right d-none d-sm-block">
-                <b>Version</b> 3.0.0-alpha
+                <p>Made With <i class="fa fa-heart text-danger"></i> By <a href="https://euonusit.com">EuonusIT</a></p>
             </div>
-            <strong> &copy;</strong> {{ trans('global.allRightsReserved') }}
+            {{ trans('global.site_title') }} <strong> &copy;</strong> {{ trans('global.allRightsReserved') }}
         </footer>
         <form id="logoutform" action="{{ route('logout') }}" method="POST" style="display: none;">
             {{ csrf_field() }}
